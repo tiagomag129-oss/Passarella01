@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --color-navy-deep: #0B132B;
+  --color-navy-surface: #111A33;
+  --color-slate-surface: #1C2541;
+  --color-amber-brand: #FFB800;
+  --color-orange-brand: #FF5500;
+  --color-electric-blue: #00A3FF;
+  --color-whatsapp: #25D366;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #0B132B;
+    color: #F8FAFC;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

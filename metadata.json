@@ -1,0 +1,6 @@
+{
+  "name": "Passarela Mototáxi João Monlevade | Atendimento 24 Horas",
+  "description": "Precisa de transporte em João Monlevade? Entre em contato com a Passarela Mototáxi pelo WhatsApp (31) 99385-8909 ou telefone (31) 3850-0722. Atendimento 24 horas no Cruzeiro Celeste e região.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
